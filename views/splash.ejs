@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/splash.css">
+    <title> Snakes and Ladders </title>
+</head>
+
+<body>
+    <div id="warning">The game is best played on higher resolution.</div>
+    <main>
+        <br>
+        <hr>
+        <h1 id="top"> Snakes and Ladders</h1>
+        <hr>
+        <section>
+            <center>
+                <form action="/game" method="GET">
+                    <button class="player" id="playButton">Play</button><br>
+                </form>
+                <button id="fullscreen" onclick="openFullscreen()"> Fullscreen</button>
+            </center>
+            <p id="rules">
+                <font family="Times New Roman" size=4>
+                    <ul>
+                        <li> Each player puts their counter on the space that says 'start here'</li>
+                        <li> Take it in turns to roll the dice, <br>
+                            Move your counter forward the number of spaces shown on the dice</li>
+                        <li> If your counter lands at the bottom of a ladder, <br>
+                            you can move up to the top of the ladder</li>
+                        <li> If your counter lands on the head of a snake, <br>
+                            you must slide down to the bottom of the snake</li>
+                        <li> The first player to get to the space that says 'home' is the winner</li>
+                    </ul>
+                </font>
+            </p>
+        </section>
+
+        <img src="images/untitled.png">
+
+        <section id="left">
+            <h3>
+                <%= gamesStarted %> game started
+            </h3>
+            <h3>
+                <%= gamesOngoing %> game ongoing
+            </h3>
+            <h3>
+                <%= gamesCompleted %> game completed
+            </h3>
+            <h3 id="visits">
+                <h3>
+
+        </section>
+    </main>
+    <script src="javascripts/splash.js"></script>
+    <script src="javascripts/cookie.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Snakes and Ladders</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/game.css">
+</head>
+
+<section id="stats">
+    <div>
+        <h2> State: </h2>
+        <h3 id="state"></h3>
+    </div>
+    <div>
+        <h2>Player: </h2>
+        <h3 id="playerText">Waiting for players</h3>
+    </div>
+    
+    <div id="diceNum"></div>
+</section>
+<button id="rollDiceButton" onclick="rollDice()" hidden>Roll Dice</button>
+<body>
+    <canvas id="game" width=800 height=800></canvas>
+</body>
+<script src="javascripts/client.js"></script>
+
+</html>
