@@ -1,0 +1,72 @@
+@import "style.css";
+
+body{
+    background-image: linear-gradient(gold, yellow, lightyellow);
+}
+
+#top{
+    text-shadow: 2px 2px black;
+    font-family: 'Trebuchet MS';
+    font-size: 60;
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+section{
+    float: right;
+    margin-right: 115;
+    margin-top: 100;
+}
+
+button{
+    position: relative;
+    background-color: darkcyan;
+    color: black;
+    width: 150px;
+    height: 75px;
+    font-family: 'Times New Roman';
+    font-size: 22;
+    font-weight: bold;
+    transition: transform 1s;
+}
+
+#left{
+    margin-top: 440;
+    float: left;
+    font-family: fantasy;
+    background-color: gray;
+    box-shadow: 10px 10px 5px black;
+}
+ button:hover{
+     cursor: pointer;
+     color: white;
+     box-shadow: 5px 5px grey;
+     transform: rotate(-25deg);
+}
+
+ hr{
+     height: 5px;
+     background-color: black;
+ }
+
+ img{
+     margin-right: 100;
+ }
+
+ li::after{
+     content: ".🔥";
+ }
+
+ li::before{
+     content: "🔥";
+ }
+
+button{
+    animation: move 2s; 
+}
+
+img{
+    animation: moveup 2s;
+}

@@ -1,0 +1,36 @@
+@import "style.css";
+
+body{
+    background-image: linear-gradient(gold, yellow, lightyellow);
+    background-repeat: no-repeat;
+}
+
+canvas{
+    background-image: url("../board.png");
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 250px;
+    position: relative;
+}
+
+#rollDiceButton{
+    width: 200;
+    height: 70;
+    font-family: 'Comic Sans MS';
+    font-size: 30;
+    background-color: red;
+    transition: transform 2s;
+    
+}
+
+#rollDiceButton:hover{
+    background-color: lightgoldenrodyellow;
+    box-shadow: 2px 2px grey;
+    transform: rotate(-180deg);
+}
+
+#stats{
+    background: skyblue;
+    border: 2px solid black;
+    width: 20%;
+}
