@@ -18,3 +18,12 @@ After you have installed npm, follow these instructions:
 
 ## Screenshots
 
+  <h4> Main Screen </h4>
+  <img src = "/pictures/main.png" width = 600></img>
+
+<p float = left>
+  <h4> Player 1 </h4>
+<img src = "/pictures/red.png" width = 500></img>
+<h4> Player 2 </h4>
+<img src = "/pictures/blue.png" width = 500></img>
+</p>
